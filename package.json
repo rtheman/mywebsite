@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "cp CNAME dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
