@@ -1,92 +1,174 @@
-body{
-    background-color: #f4f4f4;
-    color: #555;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    margin: 0;
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-#main-header{
-    background-color: coral;
-    color: white;
+body {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.7;
+    color: gray;
+    background: #e8e8e8;
 }
 
 
-#navbar{
-    background-color: #333;
-    color: white;
+
+
+
+/* ================================================================= */
+/* Main Page || Navigation Bar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+    margin: 4em auto auto auto;
+    padding: 23px 0;
+    width: 75%;
+
+    background-color: white;
 }
 
-#navbar ul{
-    padding: 0;
-    list-style: none;
-}
+#main_logo{
+    flex: 1;
+    padding: 0 0 0 25px;
 
-#navbar li{
-    display: inline;
-}
-
-#navbar a{
-    color: white;
-    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000;
     font-size: 18px;
-    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-#showcase{
-    background-image: url('../images/showcase.jpg');
-    background-position: center right;
-    min-height: 200px;
-    margin-bottom: 3px;
+#nav_elements{
+    padding: 0 25px 0 0;
+}
+
+#nav_elements ul li{
+    display: inline;
+    list-style: none;
+    /* padding: 30px 7px; */
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#nav_elements ul li a{
+    display: inline;
+    list-style: none;
+    padding: 30px 7px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#nav_elements ul li a:hover{
+    color: #000;
+}
+
+
+
+
+
+/* ================================================================= */
+/* About Page */
+#about-desc{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+
+    margin: 4em auto auto auto;
+    width: 75%;
 }
 
-#showcase h1{
-    color: thistle;
-    font-size: 50px;
-    line-height: 1.6em;
-    padding-top: 30px;
+#about-desc h3{
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0 0 7px 0;
 }
 
-#main{
-    float: left;
-    width: 70%;
-    padding: 0 30px;
-    box-sizing: border-box;
-}
-
-#sidebar{
-    float: left;
-    width: 30%;
-    background: #333;
-    color: #fff;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-#main-footer{
-    background: #333;
-    color: #fff;
+#about-CV{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+
+    margin: 4em auto auto auto;
+    width: 75%;
 }
 
-@media(max-width: 600px){
-    #main{
-        width: 100%;
-        float: none;
-    }
+#about-CV h3{
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0 0 7px 0;
+}
 
-    #sidebar{
-        width: 100%;
-        float: none;
-    }
+/* About Page || Social Network */
+.social-icons {
+    margin: 0;
+    padding: 0;
+  }
+.social-icons li {
+margin: 0;
+padding: 0;
+list-style: none;
+display: -moz-inline-stack;
+display: inline-block;
+zoom: 1;
+*display: inline;
+}
+.social-icons li a {
+display: -moz-inline-stack;
+display: inline-block;
+zoom: 1;
+*display: inline;
+color: #347ca3;
+padding-left: 10px;
+padding-right: 10px;
+}
+.social-icons li a i {
+font-size: 20px;
+}
+
+
+
+
+
+/* ================================================================= */
+/* About Page */
+#projects_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+    margin: 4em auto auto auto;
+    width: 75%;
+
+    background-color: white;
+}
+
+#project_container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: baseline;
+    list-style: none;
+    padding: 0 25px 0 0;
+    /* display: inline; */
+}
+
+#project_container img{
+    height: 100px;
 }
