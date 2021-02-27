@@ -1,0 +1,163 @@
+{
+    "basics": {
+        "name": "Rich Leung",
+        "label": "Applied Data Science",
+        "picture": "",
+        "email": "kleung.hkg@gmail.com",
+        "phone": "",
+        "website": "http://rtheman.com",
+        "summary": "Data Science - Engineering manager with business acumen gained from managmeent consulting and start-up experiences that tackles business challenges in MECE fashion to stakeholders' needs with empathy by striking a balance between Optimizing-for-Speed (e.g. data modeling, ad-hoc analysis) and Optimizing-for-Scalability (e.g., data pipeline, productionizing AI/ML products into applications).  \n\nTake pride with 'Hands On' approach in prototyping/testing with colleagues and iterate toward solutions, as well as sharing knowledge with colleagues to enable self-service experiences (e.g., data ETL, ML techniques).  \n\nInterests and specific domain expertise include customer insights, growth and retention strategies.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Los Angeles",
+            "countryCode": "US",
+            "region": "California"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "RichLeung",
+                "url": "https://www.linkedin.com/in/richleung"
+            },
+            {
+                "network": "Github",
+                "username": "rtheman",
+                "url": "https://github.com/rtheman"
+            },
+            {
+                "network": "PyPi",
+                "username": "rtheman",
+                "url": "https://pypi.org/user/rtheman"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Red Bull",
+            "position": "Global Lead, Applied Data Science",
+            "website": "http://redbull.com",
+            "startDate": "2018-01-02"
+        },
+        {
+            "company": "Red Bull Media House",
+            "position": "Senior Data Scientist",
+            "website": "https://www.linkedin.com/company/redbullmediahouse",
+            "startDate": "2016-06-30",
+            "endDate": "2017-12-31"
+        },
+        {
+            "company": "Canvas",
+            "position": "Data Scientist",
+            "website": "https://www.gocanvas.com",
+            "startDate": "2015-03-31",
+            "endDate": "2016-06-30"
+        },
+        {
+            "company": "Accenture",
+            "position": "IT Strategy Consultant",
+            "website": "https://www.accenture.com",
+            "startDate": "2011-08-31",
+            "endDate": "2015-03-31"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Mercedes-Benz USA",
+            "position": "Field Application Project Lead (Wharton)",
+            "website": "https://www.linkedin.com/company/mercedes-benz-usa/",
+            "startDate": "2011-05-31",
+            "endDate": "2011-07-31",
+            "summary": "Led five-person consulting ream to develop a market positioning strategy for a luxury auto manufacturer to attract the Gen Y segment through market assessment, customer acquisition and support.",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Pennsylvania - The Wharton School",
+            "area": "Technology Management",
+            "studyType": "Master’s Degree",
+            "startDate": "2008-08-25",
+            "endDate": "2011-05-31"
+        },
+        {
+            "institution": "Virginia Polytechnic Institute and State University",
+            "area": "Electrical Engineering",
+            "studyType": "Master’s Degree",
+            "startDate": "2002-08-25",
+            "endDate": "2004-05-31"
+        },
+        {
+            "institution": "Virginia Polytechnic Institute and State University",
+            "area": "Electrical Engineering",
+            "studyType": "Bachelor’s Degree",
+            "startDate": "1997-08-25",
+            "endDate": "2001-05-31"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Machine Learning",
+            "level": "Top",
+            "keywords": [
+                "Python",
+                "R",
+                "PyCharm",
+                "(Un-)Supervised",
+                "Neural Network"
+            ]
+        },
+        {
+            "name": "Data Analysis",
+            "level": "Top",
+            "keywords": [
+                "SQL",
+                "Statistics",
+                "Data Viz"
+            ]
+        },
+        {
+            "name": "Software Engineering",
+            "level": "Proficient",
+            "keywords": [
+                "Deployment",
+                "Orchestration",
+                "Front-End"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Chinese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "German",
+            "fluency": "Basic (A2)"
+        }
+    ],
+    "interests": [
+        {
+            "name": "food",
+            "keywords": [
+                "wine of southern hemisphere",
+                "coffee roasting"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ],
+    "meta": {
+        "theme": "eloquent"
+    }
+}
